@@ -1,7 +1,7 @@
 ---
 layout: projects
-icon: fas fa-address-book
-order: 3
+icon: fas fa-bars-progress
+order: 4
 title: Projects
 permalink: /projects/
 ---

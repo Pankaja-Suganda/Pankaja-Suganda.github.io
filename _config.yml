@@ -175,8 +175,8 @@ collections:
     sort_by: order
   projects:
     output: true
-  # experiences:
-  #   output: true
+  experiences:
+    output: true
 
 defaults:
   - scope:
@@ -201,7 +201,6 @@ defaults:
       layout: page
       permalink: /:title/
       toc: true
-  # Auto‑use the "projects" layout for any collection item in _projects/
   - scope:
       path: ""
       type: projects
@@ -209,15 +208,12 @@ defaults:
       layout: projects
       permalink: /projects/:title/
       toc: true
-      
-
-  # # Auto‑use the "experience" layout for any collection item in _experience/
-  # - scope:
-  #     path: ""
-  #     type: experience
-  #   values:
-  #     layout: experience
-  #     permalink: /experience/:title/
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: experience
+      permalink: /experience/:title/
 
 sass:
   style: compressed
