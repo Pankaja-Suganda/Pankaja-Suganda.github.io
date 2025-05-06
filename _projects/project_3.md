@@ -9,7 +9,7 @@ technologies:
   - FreeRTOS
   - USB-HID
 # image: "/assets/img/projects/barcode-firmware-demo.png"
-layout: test
+layout: post
 toc: true
 ---
 
