@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Colombo
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://Pankaja-Suganda.github.io"
 
 github:
   username: Pankaja-Suganda # change to your GitHub username
@@ -31,18 +31,21 @@ github:
 twitter:
   username: twitter_username # change to your Twitter username
 
+linkedin:
+  username: pankaja-suganda # change to your linkedin username
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Pankaja Suganda
+  name: Pankaja Suganda 
   email: papsperera0@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    # - https://twitter.com/username # change to your Twitter homepage
     - https://github.com/Pankaja-Suganda # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/pankaja-suganda
 
 # Site Verification Settings
 webmaster_verifications:
@@ -59,7 +62,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: G-4N2SM3XQL1
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
@@ -88,7 +91,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: light
+theme_mode: # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -98,7 +101,7 @@ theme_mode: light
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -170,6 +173,10 @@ collections:
   tabs:
     output: true
     sort_by: order
+  projects:
+    output: true
+  # experiences:
+  #   output: true
 
 defaults:
   - scope:
@@ -186,12 +193,31 @@ defaults:
       path: _drafts
     values:
       comments: false
+      toc: true
   - scope:
       path: ""
       type: tabs # see `site.collections`
     values:
       layout: page
       permalink: /:title/
+      toc: true
+  # Auto‑use the "projects" layout for any collection item in _projects/
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: projects
+      permalink: /projects/:title/
+      toc: true
+      
+
+  # # Auto‑use the "experience" layout for any collection item in _experience/
+  # - scope:
+  #     path: ""
+  #     type: experience
+  #   values:
+  #     layout: experience
+  #     permalink: /experience/:title/
 
 sass:
   style: compressed
@@ -216,10 +242,14 @@ exclude:
   - package*.json
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [ category, tags,]
   layouts:
     category: category
     tag: tag
+    # projects: projects
+    # test: test
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    # projects: /projects/:name/
+    # test: /test/:name/
