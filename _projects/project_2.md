@@ -3,7 +3,7 @@ layout: test
 title: "LoRaWAN Environmental Monitor"
 description: "Ultra‑low‑latency firmware for 2D retail barcode scanning on STM32 with USB HID interface."
 date: 2025-05-05
-categories: [projects]
+# categories: [projects]
 repo: "https://github.com/yourusername/barcode-firmware"
 technologies:
   - C
