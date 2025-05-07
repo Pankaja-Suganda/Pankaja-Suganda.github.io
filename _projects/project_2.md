@@ -1,30 +1,20 @@
 ---
+title: "Assistant AGV for Interior Transportation"
+description: "Developed an AGV navigation system using virtual paths and particle filter-based localization."
+date: 2021-09-30
+# image: /assets/images/project2.png
 layout: post
-order: 2
-title: "LoRaWAN Environmental Monitor"
-description: "Ultra‑low‑latency firmware for 2D retail barcode scanning on STM32 with USB HID interface."
-date: 2025-05-05
-# categories: [projects]
-repo: "https://github.com/yourusername/barcode-firmware"
-technologies:
-  - C
-  - STM32
-  - FreeRTOS
-  - USB-HID
-toc: true
+order: 4
+status: Completed
+project: true
 ---
 
-## test 1
-### test 1
-Created a battery‑powered node logging temperature, humidity, and air quality. Joined The Things Network to relay data, and built a dashboard to plot historical environmental trends.
+## Overview
 
-## test 2
-Created a battery‑powered node logging temperature, humidity, and air quality. Joined The Things Network to relay data, and built a dashboard to plot historical environmental trends.
+The project aimed to develop an Automated Guided Vehicle (AGV) navigation system using a combination of sensors and algorithms for precise and efficient movement in an industrial environment.
 
-## test 1
-### test 1
-Created a battery‑powered node logging temperature, humidity, and air quality. Joined The Things Network to relay data, and built a dashboard to plot historical environmental trends.
+## Key Contributions
 
-## test 2
-Created a battery‑powered node logging temperature, humidity, and air quality. Joined The Things Network to relay data, and built a dashboard to plot historical environmental trends.
-
+- **Localization**: Enhanced AGV localization accuracy by integrating Aruco markers with camera detection systems.
+- **Filtering**: Predictions of the current location were made using a particle filter, utilizing camera (image processing-based) and odometry data.
+- **Navigation**: Achieved navigation using a pure-pursuit algorithm with a pre-generated path.

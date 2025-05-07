@@ -176,6 +176,7 @@ collections:
   projects:
     output: true
     sort_by: order
+    permalink: /projects/:title/
   experiences:
     output: true
 
@@ -250,3 +251,6 @@ jekyll-archives:
     category: /categories/:name/
     # projects: /projects/:name/
     # test: /test/:name/
+
+plugins:
+  - jekyll-github-metadata
