@@ -15,12 +15,12 @@ I'm an Embedded Software Engineer with a passion for developing efficient and re
 ## 🛠️ Technical Skills
 
 - **Programming Languages**: C, C++, Python, Verilog, C#
-- **Embedded Systems & Protocols**: RTOS (e.g., ThreadX), USB, UART, I2C, SPI, Bluetooth, BLE, JTAG
+- **Embedded Systems & Protocols**: RTOS (e.g., ThreadX), USB, UART, I2C, SPI, Bluetooth, BLE
 - **Microcontrollers & Platforms**: ARM Cortex-A9, STM32, various microcontrollers
 - **Development Tools**: Green Hills Probe, USB Analyzer (Ellisys), Logic Analyzer (Saleae), Vitis, Vivado
 - **Software & Frameworks**: Azure Functions, Django, GitHub, ClearCase
 - **Operating Systems**: Linux
-- **Others**: Machine Learning applications, PCB Designing, CMake:contentReference[oaicite:14]{index=14}
+- **Others**: Machine Learning applications, PCB Designing, CMake
 
 ## 🌱 Continuous Learning
 
@@ -30,7 +30,9 @@ I believe in the power of continuous learning and staying updated with the lates
 
 I'm always open to discussing exciting projects or opportunities in the realm of embedded systems. Feel free to reach out or explore my work further through the links below.
 
-- [LinkedIn](#)
-- [GitHub](#)
-- [Email](mailto:youremail@example.com)
+- 📧 **Email**: [papsperera0@gmail.com](mailto:papsperera0@gmail.com)
+- 💼 **LinkedIn**: [linkedin.com/in/pankaja-suganda](https://www.linkedin.com/in/pankaja-suganda)
+- 🐙 **GitHub**: [github.com/Pankaja-Suganda](https://github.com/Pankaja-Suganda)
+
+
 

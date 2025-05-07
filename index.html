@@ -1,20 +1,20 @@
 ---
-layout: page
+layout: default
+title: Home
 ---
 
 <div class="home-content">
-    <h1>Welcome to My Website</h1>
-    <p>This is the index page of my Jekyll site.</p>
+  <h1>👋 Hello, I'm Pankaja</h1>
+  <p>Embedded Software Engineer specializing in firmware development, real-time systems, and hardware integration.</p>
 
-    <section class="latest-posts">
-        <h2>Latest Posts</h2>
-        <ul>
-            {% for post in site.posts %}
-                <li>
-                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                    <span>({{ post.date | date: "%B %d, %Y" }})</span>
-                </li>
-            {% endfor %}
-        </ul>
-    </section>
+  <section class="highlights">
+    <h2>🔍 Explore My Work</h2>
+    <ul>
+      <li><a href="{{ '/about/' | relative_url }}">About Me</a></li>
+      <li><a href="{{ '/experiences/' | relative_url }}">Experience</a></li>
+      <li><a href="{{ '/education/' | relative_url }}">Education</a></li>
+      <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+      <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+    </ul>
+  </section>
 </div>

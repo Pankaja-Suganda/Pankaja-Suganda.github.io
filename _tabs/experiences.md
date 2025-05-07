@@ -16,21 +16,25 @@ post-nav: false
 Zebra Technologies delivers real-time visibility solutions to empower frontline operations across industries.
 
 ### 🔧 Contributed Projects
-- **SP72 Series** – Released multi-plane barcode scanner with enhanced decoding algorithms.
-- **Next-generation Multiplane Scanner** – Embedded software stack development for real-time scanning.
-- **Next-generation Bluetooth Scanner** – Designed secure, BLE-enabled firmware for cordless devices.
+- **SP72 Series** – (Released)
+- **Next-generation Multiplane Scanner** – Contributed as a firmware team member, focusing on feature integration and bug fixes.
+- **Next-generation Bluetooth Scanner** – Contributed as a firmware team member, focusing on feature integration and bug fixes.
 
 ### 📌 Key Responsibilities & Achievements
 
 #### 🔹 Firmware Development
 - Designed, implemented, and tested secure boot/download firmware using **asymmetric cryptographic signatures**, improving product security.
-- Created detailed **Software Functional Specifications** and **Test Plans**, streamlining validation and reducing bugs by 25%.
-- Developed and deployed **BLE advertising** for cordless scanners, helping the team earn **4th place** at a major internal exhibition.
+- Created detailed **Software Functional Specifications** and **Test Plans**, streamlining validation and integration testing.
+- Developed **BLE advertising** for cordless scanners to track missing scanners, helping the team earn **4th place** at a major internal exhibition.
 - Contributed to firmware R&D, integrated new features, and addressed high-priority bugs for production releases.
 
+#### 🔹 Firmware Test Automation
+- Developed a color camera test automation component to support UVC.
+- Initiated the establishment of a test automation setup at the Sri Lankan Center.
+
 #### 🔹 Command-Line Tooling
-- Developed multiple **Python and C-based utilities** to improve productivity in debugging, flashing, and test automation.
-- Automated repetitive testing procedures, reducing manual workload by ~40%.
+- Developed multiple **Python and C-based utilities** to improve productivity in debugging, and test automation.
+- Automated repetitive testing procedures, reducing manual workload.
 
 #### 🔹 Azure Functions Development
 - Built **serverless applications** using Azure Functions for internal services, improving scalability and system response times.
@@ -40,7 +44,7 @@ Zebra Technologies delivers real-time visibility solutions to empower frontline 
 - Used **Jira** extensively for agile sprint planning, issue tracking, and task prioritization.
 
 #### 🔹 Innovation Team Facilitator
-- Selected as an **Innovation Facilitator** to guide ideation workshops and promote innovative thinking within the engineering team.
+- Worked as an **Innovation Facilitator** for last 3 years to guide ideation sections, and promote innovative thinking within the cross engineering team.
+- Led the selected project for the idea demonstration team.
 
----
 

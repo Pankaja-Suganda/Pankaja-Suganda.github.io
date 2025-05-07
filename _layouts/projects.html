@@ -1,36 +1,33 @@
 ---
 layout: page
-refactor: true
-toc: true
-script_includes:
-  - comment
+title: Projects
+permalink: /projects/
 ---
 
 {% include lang.html %}
-
 {% include toc-status.html %}
 
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
   {% for project in site.projects %}
-  <div class="col">
-    <div class="card bg-dark h-100">
-      {% if project.image %}
-      <img src="{{ project.image }}" class="card-img-top" alt="{{ project.title }}">
-      {% endif %}
-      <div class="card-body">
-        <h5 class="card-title">
-          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
-        </h5>
-        <p class="card-text">
-          {{ project.excerpt | strip_html | truncate: 100 }}
-        </p>
-      </div>
-      <div class="card-footer">
-        <small class="text-muted">
-          {{ project.date | date: "%b %d, %Y" }}
-        </small>
+    <div class="col">
+      <div class="card bg-body text-body h-100 shadow-sm">
+        {% if project.image %}
+          <img src="{{ project.image | relative_url }}" class="card-img-top" alt="{{ project.title }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          </h5>
+          <p class="card-text">
+            {{ project.excerpt | strip_html | truncate: 100 }}
+          </p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">
+            {{ project.date | date: "%B %d, %Y" }}
+          </small>
+        </div>
       </div>
     </div>
-  </div>
   {% endfor %}
 </div>

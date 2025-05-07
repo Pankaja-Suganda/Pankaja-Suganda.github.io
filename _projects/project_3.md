@@ -1,5 +1,6 @@
 ---
 title: "High‑Performance Barcode Scanner Firmware"
+order: 3
 date: 2025-04-01
 description: "Ultra‑low‑latency firmware for 2D retail barcode scanning on STM32 with USB HID interface."
 repo: "https://github.com/yourusername/barcode-firmware"

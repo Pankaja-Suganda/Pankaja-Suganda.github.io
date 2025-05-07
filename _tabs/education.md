@@ -11,12 +11,12 @@ post-nav: false
 
 ## MSc in Embedded System & IC Design (With Distinction)  
 **Liverpool John Moores University**  
-📍 Liverpool, UK (Remote/On-Campus)  
+📍 Liverpool, UK (Remote)  
 📅 *Apr 2023 – Dec 2024*
 
-- Coursework: Digital IC Design, Embedded Systems Architecture, Hardware Security, FPGA Design  
-- Focused on real-time embedded solutions and SoC design for resource-constrained environments  
+- Coursework: Digital IC Design, Embedded Systems Architecture, Advance Signal Processing
 - Achieved Distinction in all completed modules  
+- 📌 Dissertation: [Hardware IP for CNN Acceleration on PYNQ-Z2](/projects/project_1)
 
 ---
 
@@ -25,9 +25,8 @@ post-nav: false
 📍 Sri Lanka  
 📅 *Apr 2016 – Sep 2021*
 
-- Specialization: Embedded Systems, Control Systems, and Digital Electronics  
-- Final Year Project: “Real-Time Secure Bootloader for ARM Cortex-M Devices”  
-- Actively participated in tech symposiums and national innovation challenges  
+- Specialization: Electro-mechancal
+- 📌 Dissertation: [AGV with virtual path navigation for warehouse](/projects/project_2)  
 
 ---
 
