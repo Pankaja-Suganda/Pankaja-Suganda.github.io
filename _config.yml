@@ -251,6 +251,3 @@ jekyll-archives:
     category: /categories/:name/
     # projects: /projects/:name/
     # test: /test/:name/
-
-plugins:
-  - jekyll-github-metadata
