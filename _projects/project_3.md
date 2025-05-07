@@ -1,12 +1,13 @@
 ---
 title: "Capsicum Plant Growth Prediction Using Neural Networks"
 description: "Developed a model to determine optimal water requirements for capsicum plant growth."
-date: 2020-08-20
+# date: 2020-08-20
 # image: /assets/images/project3.png
 layout: post
 order: 5
 status: Completed
 project: true
+technologies: []
 ---
 
 ## Overview

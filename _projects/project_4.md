@@ -1,12 +1,14 @@
 ---
 title: "ArgParser: Lightweight C++ Command-Line Argument Parser"
 description: "Developed a simple and efficient C++ library for parsing command-line arguments, supporting multiple data types."
-date: 2025-05-07
+# date: 2025-05-07
 # image: /assets/images/project4.png
 layout: post
 order: 3
 status: Completed
 project: true
+repo: https://github.com/Pankaja-Suganda/Argparser
+technologies: [C++, CMake]
 ---
 
 ## Overview

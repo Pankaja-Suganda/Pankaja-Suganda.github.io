@@ -6,17 +6,14 @@ date: 2024-12-15
 layout: post
 order: 1
 status: Completed
-project: false
+project: true
+technologies: [Verilog, C, Cortex-A9, FPGA, Vitis, Vivado, CNN]
 ---
 
 ## Overview
 
 Developed a custom hardware IP to enhance real-time facial computing on the PYNQ Z2 board. The project involved optimizing memory hierarchy and data transfer efficiency for Convolutional Neural Networks (CNN) and max-pooling operations in a embedded system.
 
-
-<p style="text-align: center;">
-  <img src="https://img.shields.io/badge/status-Completed-brightgreen" alt="Project Status">
-</p>
 ## Key Contributions
 
 - **Hardware IP Design**: Created a hardware IP core for CNN and max-pooling operations using Vivado.

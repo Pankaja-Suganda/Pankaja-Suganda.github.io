@@ -1,12 +1,13 @@
 ---
 title: "Assistant AGV for Interior Transportation"
 description: "Developed an AGV navigation system using virtual paths and particle filter-based localization."
-date: 2021-09-30
+# date: 2021-09-30
 # image: /assets/images/project2.png
 layout: post
 order: 4
 status: Completed
 project: true
+technologies: [Raspberry Pi, Arduino, C, Django, OpenCV]
 ---
 
 ## Overview

@@ -1,16 +1,14 @@
 ---
 title: "MPU Simulation: Modular Simulator for Microcontroller Platforms"
 description: "Designed a modular simulation framework for microcontroller platforms including PIC, AVR, STM32, and PIC32."
-date: 2025-05-07
+# date: 2025-05-07
 layout: post
 order: 2
 status: In Progress
 project: true
+repo: https://github.com/Pankaja-Suganda/MPU-simulation
+technologies: [C++, CMake]
 ---
-
-<p style="text-align: center;">
-  <img src="https://img.shields.io/badge/status-In%20Progress-yellow" alt="Project Status">
-</p>
 
 ## Overview
 
